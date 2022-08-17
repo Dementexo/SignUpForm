@@ -2,13 +2,13 @@ body{
     display:flex;
     height:100vh;
 }
-.LeftSideContent{
+#leftSideImg{
     margin-top:auto;
     margin-bottom:auto;
     width:35%;
     min-height:55vw;
     max-height:80vw;
-    background-color: darkblue;
+    background-image:url(./imageSources/valentin-beauvais-yVUQlyRlJSw-unsplash.jpg);
 }
 .RightSideContent{
     margin-top:auto;
@@ -16,5 +16,15 @@ body{
     width:65%;
     min-height:55vw;
     max-height:80vw;
-    background-color: purple;
+    background-color: rgba(35, 0, 52, 1);
+}
+.neonCityHolder{
+    margin-top:0.5vw;
+    margin-left:auto;
+    margin-right:auto;
+    width:75%;
+}
+#neonCity{
+    width:100%;
+    height:auto;
 }
