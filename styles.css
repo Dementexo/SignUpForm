@@ -10,6 +10,38 @@ body{
     max-height:100vw;
     background: url(./imageSources/valentin-beauvais-yVUQlyRlJSw-unsplash.jpg);
     background-size: cover;
+    color:rgba(255, 255, 255, 1);
+}
+.logoAndText{
+    display:flex;
+    flex-direction:row;
+    background-color:rgba(35, 0, 52, 0.5);
+    margin-top:12vw;
+}
+.textHolder{
+    display:flex;
+    flex-direction: column;
+    width:80%;
+    margin-top:4vw;
+    margin-right:3vw;
+    margin-bottom:4vw;
+}
+.logoHolder{
+    margin-left:3vw;
+    width:40%;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+#logoImg{
+    width:60%;
+    height:auto;
+}
+.leftText1{
+    font-size:2vw;
+}
+.leftText2{
+    font-size:2vw;
+    margin-left:4vw;
 }
 .rightSideContent{
     margin-top:auto;
@@ -44,7 +76,7 @@ body{
     background-color:rgba(43, 0, 63, 1);
     color:rgba(43, 0, 63, 1);
     margin-top:0.5vw;
-    min-height:25vw;
+    min-height:24vw;
     max-height:35vw;
 }
 .dividerTwo{
