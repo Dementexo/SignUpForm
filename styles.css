@@ -39,9 +39,11 @@ body{
 }
 .leftText1{
     font-size:2vw;
+    font-weight:100;
 }
 .leftText2{
     font-size:2vw;
+    font-weight:100;
     margin-left:4vw;
     margin-top:1vw;
 }
@@ -93,6 +95,7 @@ body{
     font-size:1.8vw;
     font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
     font-style: normal;
+    font-weight:100;
 }
 .credentialContainer{
     display:flex;
@@ -125,9 +128,11 @@ input[type=text], input[type=email], input[type=password], input[type=tel]{
     border-style: none;
     color:white;
     font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+    font-weight:100;
 }
 ::placeholder{
     color:white;
+    opacity:0.5;
 }
 .inputAndChecker{
     display:flex;
@@ -172,6 +177,7 @@ input[type=text], input[type=email], input[type=password], input[type=tel]{
     height:4vw;
     font-size:1.4vw;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+    font-weight:200;
     box-shadow: 0px 0px 20px rgba(170, 0, 255, 1);
     border-radius:0.5vw;
 }
@@ -186,6 +192,7 @@ input[type=text], input[type=email], input[type=password], input[type=tel]{
     color:rgba(255, 255, 255, 1);
     font-size:1.3vw;
     font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+    font-weight:100;
 }
 .logInKeyWord{
     color:rgba(170, 0, 255, 1);
